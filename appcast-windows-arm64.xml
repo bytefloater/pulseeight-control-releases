@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>PulseEight Control</title>
+    <link>https://bytefloater.github.io/pulseeight-control-releases</link>
+    <description>Updates for PulseEight Control</description>
+    <language>en</language>
+    <item>
+      <title>0.1.0-rc.1</title>
+      <pubDate>Tue, 20 Oct 2026 21:38:54 +0000</pubDate>
+      <sparkle:version>0.1.0.201</sparkle:version>
+      <sparkle:shortVersionString>0.1.0-rc.1</sparkle:shortVersionString>
+      <sparkle:channel>rc</sparkle:channel>
+      <description>&lt;ul&gt;
+  &lt;li&gt;Clear the build warnings from CI&lt;/li&gt;
+  &lt;li&gt;Hide the shortcut tooltip&lt;/li&gt;
+  &lt;li&gt;Stop the wheel changing drop-downs&lt;/li&gt;
+  &lt;li&gt;Windows: attach the title bar and update handlers after the fields they use are assigned&lt;/li&gt;
+  &lt;li&gt;Bump the nuget group with 4 updates&lt;/li&gt;
+  &lt;li&gt;Bump actions/setup-dotnet from 5.4.0 to 6.0.0 in the actions group&lt;/li&gt;
+  &lt;li&gt;Kit: Retry now waits out a system fetch in flight, stop() drops late state, steadier stale-connection test&lt;/li&gt;
+  &lt;li&gt;CI: the p8ctl smoke test expects the health and monitoring files in a capture&lt;/li&gt;
+  &lt;li&gt;macOS: every word from the catalog, a Language picker, and the pre-release setting&lt;/li&gt;
+  &lt;li&gt;Kit: an update setting for pre-releases, and the text the macOS app needs&lt;/li&gt;
+  &lt;li&gt;Release versioning from the tag, with pre-release channels&lt;/li&gt;
+  &lt;li&gt;Windows: restart the matrix, cloud link on Health, logo with transparent corners&lt;/li&gt;
+  &lt;li&gt;macOS: new app icon artwork&lt;/li&gt;
+  &lt;li&gt;Windows: add the app logo&lt;/li&gt;
+  &lt;li&gt;Show the matrix&amp;#x27;s cloud link on the Health page&lt;/li&gt;
+  &lt;li&gt;macOS: lay the Hardware page out as topics, like the Windows app&lt;/li&gt;
+  &lt;li&gt;macOS: centre the controls in the Settings and port editor rows&lt;/li&gt;
+  &lt;li&gt;Restart the matrix, with a confirmation, as an admin-only action&lt;/li&gt;
+  &lt;li&gt;Windows: several matrices, health, Hardware topics, About page&lt;/li&gt;
+  &lt;li&gt;Xcode: run the PulseEightControl scheme in Release&lt;/li&gt;
+  &lt;li&gt;macOS: Connections list, health page, local network permission, connection grace&lt;/li&gt;
+  &lt;li&gt;macOS: fix the window half redrawn when the theme is set to System&lt;/li&gt;
+  &lt;li&gt;Kit: several matrices, real-device decoding, health report, connection recovery&lt;/li&gt;
+  &lt;li&gt;macOS: build with the hardened runtime on&lt;/li&gt;
+  &lt;li&gt;macOS: Find Matrix in Settings and on the no-matrix screen&lt;/li&gt;
+  &lt;li&gt;Core: discoverMatrix and a discover command for the C interface&lt;/li&gt;
+  &lt;li&gt;Find the matrix through gotomymatrix.com&amp;#x27;s redirect&lt;/li&gt;
+  &lt;li&gt;Release workflow: name the published release after the tag that started the run&lt;/li&gt;
+  &lt;li&gt;Release workflow: use the secret&amp;#x27;s real name; fail a build that lacks the update address or key&lt;/li&gt;
+  &lt;li&gt;Release workflow: give the macOS build a feed address only together with the key&lt;/li&gt;
+  &lt;li&gt;smoke.ps1: treat an empty fake-matrix log as no output yet&lt;/li&gt;
+  &lt;li&gt;Fix what the first CI run found&lt;/li&gt;
+  &lt;li&gt;Windows: Inno Setup installer, release-build parameters, and the Windows half of the release workflow&lt;/li&gt;
+  &lt;li&gt;Windows app: update dialog, daily check and an Updates section in Settings&lt;/li&gt;
+  &lt;li&gt;Windows updates: turn feed release notes (HTML) into plain text for the dialog&lt;/li&gt;
+  &lt;li&gt;Windows: PulseEight.Updates, the updater without any UI&lt;/li&gt;
+  &lt;li&gt;Windows core client: the update-check setting (snapshot field, typed command, tests)&lt;/li&gt;
+  &lt;li&gt;Core: a setting for whether the app checks for updates by itself&lt;/li&gt;
+  &lt;li&gt;Add the release tooling and a verified end-to-end macOS update test&lt;/li&gt;
+  &lt;li&gt;macOS: add Sparkle for automatic updates&lt;/li&gt;
+  &lt;li&gt;Add the CI workflow, Dependabot config and a pin checker&lt;/li&gt;
+  &lt;li&gt;Add the new test suites to the VS Code tasks and README&lt;/li&gt;
+  &lt;li&gt;Add a coverage summary script for CI job pages&lt;/li&gt;
+  &lt;li&gt;Windows: more core tests, a free port for the fake, and an app smoke test&lt;/li&gt;
+  &lt;li&gt;Add a smoke test of p8ctl against p8fake over a real socket&lt;/li&gt;
+  &lt;li&gt;Add tests for the macOS app&amp;#x27;s model and its flows&lt;/li&gt;
+  &lt;li&gt;Stop the core&amp;#x27;s polling on destroy, and test the C interface from Swift&lt;/li&gt;
+  &lt;li&gt;Harden secrets and settings, and add the tests they never had&lt;/li&gt;
+  &lt;li&gt;Fix MatrixStore writing a stale poll&amp;#x27;s answer after stop or reconfigure&lt;/li&gt;
+  &lt;li&gt;Add p8ctl capture and tests that decode real device responses&lt;/li&gt;
+  &lt;li&gt;Fix the fake server serving a later server&amp;#x27;s clients after stop()&lt;/li&gt;
+  &lt;li&gt;Keep LF line endings for shell scripts&lt;/li&gt;
+  &lt;li&gt;Add VS Code tasks and launch configs, Windows test script, README&lt;/li&gt;
+  &lt;li&gt;Add the Xcode project, workspace schemes and packaging script&lt;/li&gt;
+  &lt;li&gt;macOS app: native SwiftUI instead of SwiftCrossUI&lt;/li&gt;
+  &lt;li&gt;Shorter build paths: one out/ folder for all Windows build output&lt;/li&gt;
+  &lt;li&gt;Windows app: use the shared string catalog, add a language picker&lt;/li&gt;
+  &lt;li&gt;Add localisation to the core: shared string catalog, language setting&lt;/li&gt;
+  &lt;li&gt;Replace the Python fake matrix with a Swift one (PulseEightFakeServer)&lt;/li&gt;
+  &lt;li&gt;Restructure the repository into clearly named folders&lt;/li&gt;
+  &lt;li&gt;Windows UI: centred two-column pages, title bar, theming, route icons&lt;/li&gt;
+  &lt;li&gt;Fix Windows app startup: add a minimal App.xaml&lt;/li&gt;
+  &lt;li&gt;Use WinHTTP for matrix requests on Windows&lt;/li&gt;
+  &lt;li&gt;Add the Windows app: C# WinUI 3 over the shared core&lt;/li&gt;
+  &lt;li&gt;Make the SwiftCrossUI app macOS-only on top of PulseEightCore&lt;/li&gt;
+  &lt;li&gt;Add PulseEightCore: shared app logic with a C interface&lt;/li&gt;
+  &lt;li&gt;Add P8_BISECT diagnostic switch for backend crash hunting&lt;/li&gt;
+  &lt;li&gt;Guard layout against non-finite sizes for WinUI; fix spike manifest&lt;/li&gt;
+  &lt;li&gt;Choose macOS-only package pieces by host OS, not platform conditions&lt;/li&gt;
+  &lt;li&gt;Fix non-macOS Settings window build&lt;/li&gt;
+  &lt;li&gt;Fix all compiler warnings flagged in Xcode&lt;/li&gt;
+  &lt;li&gt;Unload inactive pages instead of hiding them; slim grid tiles&lt;/li&gt;
+  &lt;li&gt;Embed an Info.plist in the executable for app identity&lt;/li&gt;
+  &lt;li&gt;Native SwiftUI Settings window; faster tab switching&lt;/li&gt;
+  &lt;li&gt;Move Settings to its own window; highlight the grid cells directly&lt;/li&gt;
+  &lt;li&gt;Refine macOS UI: Liquid Glass, grid, status bar, menus&lt;/li&gt;
+  &lt;li&gt;Make the macOS app look and behave natively&lt;/li&gt;
+  &lt;li&gt;Add Hardware view and admin features (M4)&lt;/li&gt;
+  &lt;li&gt;Add native app: shell (M2) and routing grid (M3)&lt;/li&gt;
+  &lt;li&gt;Add fake NeoMatrix dev server&lt;/li&gt;
+  &lt;li&gt;Add SwiftCrossUI M0 spike and findings&lt;/li&gt;
+  &lt;li&gt;Add PulseEightKit: native Swift device layer and p8ctl CLI&lt;/li&gt;
+  &lt;li&gt;Initial commit&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/bytefloater/pulseeight-control-releases/releases/download/v0.1.0.rc-01/PulseEightControl-Setup-0.1.0-rc.1-arm64.exe" length="76048018" type="application/octet-stream" sparkle:signature="NPe9l9J5OPduFH4JerN3Zf8yjEhhFHbunX1WyZjeHHkikZvis5yCK55FOwilKYKpPk65wNk1rl70s5KOBGWZDQ==" sparkle:os="windows" />
+    </item>
+  </channel>
+</rss>
