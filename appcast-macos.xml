@@ -6,6 +6,18 @@
     <description>Updates for PulseEight Control</description>
     <language>en</language>
     <item>
+      <title>0.1.0-rc.2</title>
+      <pubDate>Tue, 20 Oct 2026 23:55:50 +0000</pubDate>
+      <sparkle:version>0.1.0.202</sparkle:version>
+      <sparkle:shortVersionString>0.1.0-rc.2</sparkle:shortVersionString>
+      <sparkle:channel>rc</sparkle:channel>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;ul&gt;
+  &lt;li&gt;macOS: sign ad-hoc releases without the hardened runtime&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/bytefloater/pulseeight-control-releases/releases/download/v0.1.0.rc-02/PulseEightControl-0.1.0-rc.2.dmg" length="5323333" type="application/octet-stream" sparkle:edSignature="GpbyAHSBnZ7QwXIDDUtrWsxy5+SrkXfRRgnLwOkK2ZjVrp9lTyF4RhkvCD4kpJB1bre5QgmVX5E5clwQhjvJBg==" />
+    </item>
+    <item>
       <title>0.1.0-rc.1</title>
       <pubDate>Tue, 20 Oct 2026 21:38:34 +0000</pubDate>
       <sparkle:version>0.1.0.201</sparkle:version>
