@@ -6,6 +6,17 @@
     <description>Updates for PulseEight Control</description>
     <language>en</language>
     <item>
+      <title>0.1.0-rc.3</title>
+      <pubDate>Thu, 22 Oct 2026 04:39:45 +0000</pubDate>
+      <sparkle:version>0.1.0.203</sparkle:version>
+      <sparkle:shortVersionString>0.1.0-rc.3</sparkle:shortVersionString>
+      <sparkle:channel>rc</sparkle:channel>
+      <description>&lt;ul&gt;
+  &lt;li&gt;Fix Windows updates that never installed&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/bytefloater/pulseeight-control-releases/releases/download/v0.1.0.rc-03/PulseEightControl-Setup-0.1.0-rc.3-arm64.exe" length="76051457" type="application/octet-stream" sparkle:signature="Z8yRDPJLu9zZrYgHjDcmooeKXItZZ9DDwRTsSVtBKmQ55+bIgMndGEQJa22XtjBiOoIF9jx9/Z4nJBE3cp6QBQ==" sparkle:os="windows" />
+    </item>
+    <item>
       <title>0.1.0-rc.2</title>
       <pubDate>Tue, 20 Oct 2026 23:55:58 +0000</pubDate>
       <sparkle:version>0.1.0.202</sparkle:version>
